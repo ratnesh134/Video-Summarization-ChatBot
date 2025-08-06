@@ -44,22 +44,28 @@ Follow these steps to get the project running on your local machine.
 1. Clone the repository:
 
 Bash
-
-git clone https://github.com/MantraHackathon/your-repo-name.git
+```
+git clone [https://github.com/MantraHackathon/your-repo-name.git](https://github.com/ratnesh134/Video-Summarization-ChatBot.git)
 cd your-repo-name
+```
+
 2. Install dependencies:
 
 Bash
-
+```
 pip install streamlit google-generativeai groq
+```
+
 3. Configure API keys:
 Create a new directory named .streamlit in the root of your project. Inside this directory, create a file named secrets.toml. Add your API keys to this file:
 
 Ini, TOML
 
 # .streamlit/secrets.toml
+```
 GEMINI_API_KEY = "your_gemini_api_key"
 GROQ_API_KEY = "your_groq_api_key"
+```
 4. Run the application:
 
 Bash
@@ -103,4 +109,5 @@ System Design: The architectural design is clear, robust, and leverages the stre
 Documentation: This README.md file provides a comprehensive overview, setup instructions, and usage guidelines.
 
 Innovation: The use of a decoupled agentic workflow with best-in-class models (Gemini and Groq) demonstrates a creative approach to building a responsive and powerful visual assistant.
+
 
