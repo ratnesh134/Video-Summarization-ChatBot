@@ -113,11 +113,12 @@ Innovation: The use of a decoupled agentic workflow with best-in-class models (G
 
 ## Collaborators
 
-Adtiya Londhe - adityalondhe052@gmail.com
+Aditya Londhe - adityalondhe052@gmail.com
 
 Nitesh Pratap Singh - niteshen1010@gmail.com
 
 Ratnesh Kumar - ratnesh134@gmail.com
+
 
 
 
