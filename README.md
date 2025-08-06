@@ -23,7 +23,7 @@ The system follows a decoupled, two-stage architecture:
 
 Video Processing Stage: A user uploads a video via the Streamlit front-end. The application saves the video temporarily and sends it to the Gemini 1.5 Flash API. This model, acting as the Video Agent, analyzes the video based on a detailed prompt and returns a comprehensive summary. This summary is then stored in the Streamlit session_state.
 
-Conversational Stage: Once the summary is ready, the user can ask questions. The Groq Conversational Agent is activated, taking the video summary and the chat history as its context. It uses the Llama 3.1 70B model via the low-latency Groq Cloud API to generate fast, accurate responses to the user's queries.
+Conversational Stage: Once the summary is ready, the user can ask questions. The Groq Conversational Agent is activated, taking the video summary and the chat history as its context. It uses the Llama 3.3 70B model via the low-latency Groq Cloud API to generate fast, accurate responses to the user's queries.
 
 <br>
 
@@ -159,6 +159,7 @@ Aditya Londhe - adityalondhe052@gmail.com
 Nitesh Pratap Singh - niteshen1010@gmail.com
 
 Ratnesh Kumar - ratnesh134@gmail.com
+
 
 
 
