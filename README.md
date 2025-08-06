@@ -1,7 +1,7 @@
 # Visual Understanding Agentic Chat Assistant
 ## 📄 Project Overview
 
-This project implements an agentic chat assistant capable of processing video input, generating a detailed summary of its contents, and then engaging in multi-turn conversations with a user about the video. The solution is built as a web application using Streamlit, providing a user-friendly interface for video uploads and chat interactions. It leverages two powerful large language models: Google's Gemini 1.5 Flash for video analysis and Llama 3.1 70B via Groq Cloud for real-time conversational responses.
+This project implements an agentic chat assistant capable of processing video input, generating a detailed summary of its contents, and then engaging in multi-turn conversations with a user about the video. The solution is built as a web application using Streamlit, providing a user-friendly interface for video uploads and chat interactions. It leverages two powerful large language models: Google's Gemini 1.5 Flash for video analysis and Llama 3.3 70B via Groq Cloud for real-time conversational responses.
 
 <br>
 
@@ -53,7 +53,7 @@ cd your-repo-name
 
 Bash
 ```
-pip install streamlit google-generativeai groq
+pip install -r requirements.txt
 ```
 
 3. Configure API keys:
@@ -109,5 +109,6 @@ System Design: The architectural design is clear, robust, and leverages the stre
 Documentation: This README.md file provides a comprehensive overview, setup instructions, and usage guidelines.
 
 Innovation: The use of a decoupled agentic workflow with best-in-class models (Gemini and Groq) demonstrates a creative approach to building a responsive and powerful visual assistant.
+
 
 
