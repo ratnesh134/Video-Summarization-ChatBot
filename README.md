@@ -5,6 +5,21 @@ This project is a Streamlit-based web application that serves as a visual unders
 
 [Demo 1](https://drive.google.com/file/d/1VBB9Z4m-vMptZkoe627TYOOYOyhhrVXs/view?usp=sharing)
 
+
+## Architecture Diagram
+The system follows a two-stage, decoupled architecture.
+
+Video Processing Stage: A user uploads a video via the Streamlit UI. The video is sent to the Gemini 1.5 Flash API, which acts as the Video Agent. This agent analyzes the video based on a detailed prompt and generates a comprehensive, time-stamped summary. This summary is then stored in the Streamlit st.session_state.
+
+Conversational Stage: Once the summary is generated, the user can ask questions. The Groq Conversational Agent is activated, taking the video summary and the chat history as its context. It uses the Llama 3.1 70B model via the low-latency Groq Cloud API to generate fast, accurate responses.
+
+## Tech Stack Justification
+Streamlit: Chosen for its ability to rapidly build beautiful and interactive web applications in pure Python. It provides a user-friendly frontend for the prototype, enabling seamless interaction without the need for complex web development.
+
+Gemini 1.5 Flash: A multimodal model with a large context window, making it ideal for processing video files and generating detailed, time-stamped event logs and summaries. Its ability to understand visual information is crucial for the video analysis part of the project.
+
+Groq Cloud (with Llama 3.3 70B-versatile): Selected for its exceptional inference speed and low latency. This ensures that the conversational part of the application feels instantaneous, providing a highly responsive and satisfying chat experience. Using Groq avoids the need to download and run a large model locally, which simplifies deployment and significantly enhances performance.
+
 ## ✨ Features
 In-Depth Video Analysis: Utilizes Google's Gemini 1.5 Flash to analyze videos up to 2 minutes long. It generates a comprehensive, time-stamped report on key events, object tracking, and potential violations.
 
@@ -153,5 +168,6 @@ Enjoy using your Visual Understanding Agent!
 [Nitesh Pratap Singh](niteshen1010@gmail.com)
 
 [Ratnesh Kumar](ratnesh134@gmail.com)
+
 
 
