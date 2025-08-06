@@ -1,10 +1,12 @@
 # Visual Understanding Agentic Chat Assistant
-📄 Project Overview
+## 📄 Project Overview
+
 This project implements an agentic chat assistant capable of processing video input, generating a detailed summary of its contents, and then engaging in multi-turn conversations with a user about the video. The solution is built as a web application using Streamlit, providing a user-friendly interface for video uploads and chat interactions. It leverages two powerful large language models: Google's Gemini 1.5 Flash for video analysis and Llama 3.1 70B via Groq Cloud for real-time conversational responses.
 
 <br>
 
-✨ Core Features
+## ✨ Core Features
+
 Video Event Recognition & In-Depth Summarization: The system processes a user-uploaded video (up to 2 minutes long) and generates a comprehensive report. This report includes a detailed log of all objects, persons, and events, along with their timestamps. It also identifies potential guideline violations and provides a narrative summary.
 
 Multi-Turn Conversations: The assistant retains context from the generated video summary and the ongoing chat history, allowing users to ask natural, follow-up questions about the video's content.
@@ -15,7 +17,8 @@ Intuitive UI: A Streamlit frontend makes it simple for users to upload a video, 
 
 <br>
 
-🏛️ Architecture
+## 🏛️ Architecture
+
 The system follows a decoupled, two-stage architecture:
 
 Video Processing Stage: A user uploads a video via the Streamlit front-end. The application saves the video temporarily and sends it to the Gemini 1.5 Flash API. This model, acting as the Video Agent, analyzes the video based on a detailed prompt and returns a comprehensive summary. This summary is then stored in the Streamlit session_state.
@@ -24,7 +27,8 @@ Conversational Stage: Once the summary is ready, the user can ask questions. The
 
 <br>
 
-💻 Tech Stack Justification
+## 💻 Tech Stack Justification
+
 Streamlit: Chosen for its ability to quickly build interactive and beautiful data applications in pure Python. It provides an excellent front-end for a prototype, requiring minimal effort to create a polished user experience.
 
 Gemini 1.5 Flash: A powerful multimodal model with a long context window, making it ideal for processing video files and generating detailed, time-stamped summaries and event logs.
@@ -33,7 +37,8 @@ Groq Cloud (with Llama 3.1 70B): Selected for its exceptional inference speed an
 
 <br>
 
-🛠️ Setup and Installation
+## 🛠️ Setup and Installation
+
 Follow these steps to get the project running on your local machine.
 
 1. Clone the repository:
@@ -85,7 +90,8 @@ Assistant responds: "The car that ran the red light at 00:15 was a red sedan."
 
 <br>
 
-📝 Evaluation Criteria
+## 📝 Evaluation Criteria
+
 This project was developed with the following criteria in mind:
 
 Functionality: The core features—video summarization, event recognition, and multi-turn conversations—are fully implemented and operational.
@@ -97,3 +103,4 @@ System Design: The architectural design is clear, robust, and leverages the stre
 Documentation: This README.md file provides a comprehensive overview, setup instructions, and usage guidelines.
 
 Innovation: The use of a decoupled agentic workflow with best-in-class models (Gemini and Groq) demonstrates a creative approach to building a responsive and powerful visual assistant.
+
