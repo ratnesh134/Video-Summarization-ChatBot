@@ -102,6 +102,7 @@ Here is the project structure for the Visual Understanding Agentic Chat Assistan
 
 Video-Summarization-ChatBot/
 |
+|
 ├── .streamlit/
 |    |
 |    |
@@ -156,6 +157,7 @@ Aditya Londhe - adityalondhe052@gmail.com
 Nitesh Pratap Singh - niteshen1010@gmail.com
 
 Ratnesh Kumar - ratnesh134@gmail.com
+
 
 
 
