@@ -96,6 +96,39 @@ Assistant responds: "The car that ran the red light at 00:15 was a red sedan."
 
 <br>
 
+# Project Structure
+
+Here is the project structure for the Visual Understanding Agentic Chat Assistant.
+
+Video-Summarization-ChatBot/
+|
+├── .streamlit/
+|    |
+│   └── secrets.toml
+|
+├── uploaded_videos/
+|    |
+│   └── (Your video files for testing, e.g., 1.mp4)
+|
+├── app.py
+|
+└── README.md
+
+File and Folder Descriptions
+your_project_directory/: This is the root directory of your project.
+
+.streamlit/: A mandatory folder for Streamlit to manage local configurations and secrets.
+
+secrets.toml: This file is where you securely store your API keys for Gemini and Groq.
+
+uploads/: This is a directory where you can place video files to test with the application, though the app also supports uploading directly.
+
+app.py: This is the main Python script containing all the application logic, including the Streamlit UI, the Gemini video summarization function, and the Groq-powered chat agent.
+
+README.md: This file provides comprehensive documentation for your project, including its overview, features, architecture, and setup instructions.
+
+<br>
+
 ## 📝 Evaluation Criteria
 
 This project was developed with the following criteria in mind:
@@ -104,7 +137,7 @@ Functionality: The core features—video summarization, event recognition, and m
 
 Code Quality: The codebase is modular, well-commented, and adheres to good Python coding practices.
 
-System Design: The architectural design is clear, robust, and leverages the strengths of each chosen tool (Gemini for vision, Groq for chat).
+System Design: The architectural design is clear, robust, and leverages the strengths of each chosen tool (Gemini for vision, LLAMA 3.3-70B via Groq Cloud for chat).
 
 Documentation: This README.md file provides a comprehensive overview, setup instructions, and usage guidelines.
 
@@ -118,6 +151,7 @@ Aditya Londhe - adityalondhe052@gmail.com
 Nitesh Pratap Singh - niteshen1010@gmail.com
 
 Ratnesh Kumar - ratnesh134@gmail.com
+
 
 
 
