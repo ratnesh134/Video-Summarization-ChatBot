@@ -111,4 +111,14 @@ Documentation: This README.md file provides a comprehensive overview, setup inst
 Innovation: The use of a decoupled agentic workflow with best-in-class models (Gemini and Groq) demonstrates a creative approach to building a responsive and powerful visual assistant.
 
 
+## Collaborators
+
+Adtiya Londhe - adityalondhe052@gmail.com
+
+Nitesh Pratap Singh - niteshen1010@gmail.com
+
+Ratnesh Kumar - ratnesh134@gmail.com
+
+
+
 
