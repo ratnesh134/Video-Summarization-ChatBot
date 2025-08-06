@@ -100,6 +100,7 @@ Assistant responds: "The car that ran the red light at 00:15 was a red sedan."
 
 Here is the project structure for the Visual Understanding Agentic Chat Assistant.
 
+```
 Video-Summarization-ChatBot/
 |
 |
@@ -119,6 +120,7 @@ Video-Summarization-ChatBot/
 |
 |
 └── README.md
+```
 
 File and Folder Descriptions
 your_project_directory/: This is the root directory of your project.
@@ -157,6 +159,7 @@ Aditya Londhe - adityalondhe052@gmail.com
 Nitesh Pratap Singh - niteshen1010@gmail.com
 
 Ratnesh Kumar - ratnesh134@gmail.com
+
 
 
 
