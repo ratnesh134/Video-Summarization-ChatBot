@@ -45,7 +45,7 @@ Follow these steps to get the project running on your local machine.
 
 Bash
 ```
-git clone [https://github.com/MantraHackathon/your-repo-name.git](https://github.com/ratnesh134/Video-Summarization-ChatBot.git)
+git clone https://github.com/ratnesh134/Video-Summarization-ChatBot.git
 cd your-repo-name
 ```
 
@@ -118,6 +118,7 @@ Adtiya Londhe - adityalondhe052@gmail.com
 Nitesh Pratap Singh - niteshen1010@gmail.com
 
 Ratnesh Kumar - ratnesh134@gmail.com
+
 
 
 
