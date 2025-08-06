@@ -23,7 +23,7 @@ Groq Cloud (with Llama 3.3 70B-versatile): Selected for its exceptional inferenc
 ## ✨ Features
 In-Depth Video Analysis: Utilizes Google's Gemini 1.5 Flash to analyze videos up to 2 minutes long. It generates a comprehensive, time-stamped report on key events, object tracking, and potential violations.
 
-Real-time Conversational AI: Employs Llama 3.1 70B through the low-latency Groq Cloud API to enable fast and context-aware chat interactions with the video summary.
+Real-time Conversational AI: Employs Llama 3.3 70B through the low-latency Groq Cloud API to enable fast and context-aware chat interactions with the video summary.
 
 Modular Codebase: The project is structured into separate modules for agents, UI components, and the main application logic, making the code clean, readable, and easy to maintain.
 
@@ -168,6 +168,7 @@ Enjoy using your Visual Understanding Agent!
 [Nitesh Pratap Singh](niteshen1010@gmail.com)
 
 [Ratnesh Kumar](ratnesh134@gmail.com)
+
 
 
 
