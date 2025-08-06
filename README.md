@@ -48,7 +48,7 @@ Groq Cloud (with Llama 3.3 70B): Selected for its exceptional inference speed an
 
 Follow these steps to get the project running on your local machine.
 
-1. Clone the repository:
+### 1. Clone the repository:
 
 Bash
 ```
@@ -56,24 +56,24 @@ git clone https://github.com/ratnesh134/Video-Summarization-ChatBot.git
 cd your-repo-name
 ```
 
-2. Install dependencies:
+### 2. Install dependencies:
 
 Bash
 ```
 pip install -r requirements.txt
 ```
 
-3. Configure API keys:
+### 3. Configure API keys:
 Create a new directory named .streamlit in the root of your project. Inside this directory, create a file named secrets.toml. Add your API keys to this file:
-
+Make a folder name .streamlit and inside make a file called "streamlit.toml"
 Ini, TOML
 
-# .streamlit/secrets.toml
+ .streamlit/secrets.toml
 ```
 GEMINI_API_KEY = "your_gemini_api_key"
 GROQ_API_KEY = "your_groq_api_key"
 ```
-4. Run the application:
+### 4. Run the application:
 
 Bash
 
@@ -166,6 +166,7 @@ Aditya Londhe - adityalondhe052@gmail.com
 Nitesh Pratap Singh - niteshen1010@gmail.com
 
 Ratnesh Kumar - ratnesh134@gmail.com
+
 
 
 
