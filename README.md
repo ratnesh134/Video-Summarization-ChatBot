@@ -111,9 +111,12 @@ pip install -r requirements.txt
 Step d. Configure API keys
 Create a directory named .streamlit and a file inside it named secrets.toml.
 
+
+```
 your_project_directory/
 ├── .streamlit/
 │   └── secrets.toml
+```
 Open secrets.toml and add your API keys. Replace "your_gemini_api_key" and "your_groq_api_key" with your actual keys.
 
 Ini, TOML
@@ -152,3 +155,4 @@ Enjoy using your Visual Understanding Agent!
 [Nitesh Pratap Singh](niteshen1010@gmail.com)
 
 [Ratnesh Kumar](ratnesh134@gmail.com)
+
