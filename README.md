@@ -7,7 +7,7 @@ This project implements an agentic chat assistant capable of processing video in
 
 ## Working Demo 
 
-(Demo)[https://drive.google.com/file/d/1yBA1TDtyY8yzZOr75JsoqSrWdKRE4yDT/view?usp=sharing]
+[Demo](https://drive.google.com/file/d/1yBA1TDtyY8yzZOr75JsoqSrWdKRE4yDT/view?usp=sharing)
 
 
 <br>
@@ -166,6 +166,7 @@ Aditya Londhe - adityalondhe052@gmail.com
 Nitesh Pratap Singh - niteshen1010@gmail.com
 
 Ratnesh Kumar - ratnesh134@gmail.com
+
 
 
 
