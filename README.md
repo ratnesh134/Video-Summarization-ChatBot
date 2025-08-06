@@ -3,9 +3,7 @@ This project is a Streamlit-based web application that serves as a visual unders
 
 ## Working Demo
 
-[Demo 1](https://drive.google.com/file/d/1wgI3pnRGNpMZ1WtNG9B9f3blor4vmlkE/view?usp=sharing)
-
-[Demo 2](https://drive.google.com/file/d/1VBB9Z4m-vMptZkoe627TYOOYOyhhrVXs/view?usp=sharing)
+[Demo 1](https://drive.google.com/file/d/1VBB9Z4m-vMptZkoe627TYOOYOyhhrVXs/view?usp=sharing)
 
 ## ✨ Features
 In-Depth Video Analysis: Utilizes Google's Gemini 1.5 Flash to analyze videos up to 2 minutes long. It generates a comprehensive, time-stamped report on key events, object tracking, and potential violations.
@@ -155,4 +153,5 @@ Enjoy using your Visual Understanding Agent!
 [Nitesh Pratap Singh](niteshen1010@gmail.com)
 
 [Ratnesh Kumar](ratnesh134@gmail.com)
+
 
