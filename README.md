@@ -104,13 +104,18 @@ Video-Summarization-ChatBot/
 |
 ├── .streamlit/
 |    |
-│   └── secrets.toml
+|    |
+│    └── secrets.toml
+|
 |
 ├── uploaded_videos/
-|    |
+|   |
+|   |
 │   └── (Your video files for testing, e.g., 1.mp4)
 |
+|
 ├── app.py
+|
 |
 └── README.md
 
@@ -151,6 +156,7 @@ Aditya Londhe - adityalondhe052@gmail.com
 Nitesh Pratap Singh - niteshen1010@gmail.com
 
 Ratnesh Kumar - ratnesh134@gmail.com
+
 
 
 
