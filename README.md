@@ -5,6 +5,13 @@ This project implements an agentic chat assistant capable of processing video in
 
 <br>
 
+## Working Demo 
+
+(Demo)[https://drive.google.com/file/d/1yBA1TDtyY8yzZOr75JsoqSrWdKRE4yDT/view?usp=sharing]
+
+
+<br>
+
 ## ✨ Core Features
 
 Video Event Recognition & In-Depth Summarization: The system processes a user-uploaded video (up to 2 minutes long) and generates a comprehensive report. This report includes a detailed log of all objects, persons, and events, along with their timestamps. It also identifies potential guideline violations and provides a narrative summary.
