@@ -33,7 +33,7 @@ Streamlit: Chosen for its ability to quickly build interactive and beautiful dat
 
 Gemini 1.5 Flash: A powerful multimodal model with a long context window, making it ideal for processing video files and generating detailed, time-stamped summaries and event logs.
 
-Groq Cloud (with Llama 3.1 70B): Selected for its exceptional inference speed and low latency. This ensures that the conversational part of the application feels instantaneous, providing a highly responsive and satisfying chat experience. Using Groq avoids the need to download and run a large model locally, simplifying deployment and enhancing performance.
+Groq Cloud (with Llama 3.3 70B): Selected for its exceptional inference speed and low latency. This ensures that the conversational part of the application feels instantaneous, providing a highly responsive and satisfying chat experience. Using Groq avoids the need to download and run a large model locally, simplifying deployment and enhancing performance.
 
 <br>
 
@@ -159,6 +159,7 @@ Aditya Londhe - adityalondhe052@gmail.com
 Nitesh Pratap Singh - niteshen1010@gmail.com
 
 Ratnesh Kumar - ratnesh134@gmail.com
+
 
 
 
